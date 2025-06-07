@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact Fest 2025 - El evento donde los negocios de Nariño brillan</title>
+    <meta name="description" content="Participa en Impact Fest 2025, el festival empresarial más influyente del sur colombiano. Reserva tu stand y conecta con tu público objetivo.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+    /* CSS crítico - elementos que se ven primero */
+    .hero, .btn {
+        opacity: 0;
+        animation: fadeIn 0.5s forwards;
+    }
+    @keyframes fadeIn { to { opacity: 1; } }
+    
+    /* Estilos mínimos para botones antes de cargar CSS completo */
+    .btn {
+        display: inline-block;
+        padding: 12px 24px;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Impact Fest 2025 Logo">
+            </div>
+            <nav class="nav">
+                <a href="#about" class="nav-link">Sobre el evento</a>
+                <a href="#speakers" class="nav-link">Conferencistas</a>
+                <a href="#zones" class="nav-link">Zonas</a>
+                <a href="#location" class="nav-link location-btn">
+                    <i class="fas fa-map-marker-alt"></i> Nuestra Ubicación
+                </a>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">¡El evento donde los negocios de Nariño brillan!</h1>
+                <p class="hero-text">Impact Fest 2025: Conecta, crece y haz visible tu emprendimiento en el festival empresarial más importante del sur colombiano.</p>
+                <div class="hero-buttons">
+                    <a href="#reserve" class="btn btn-primary">Reservar mi stand</a>
+                    <a href="#speakers" class="btn btn-secondary">Conoce a los conferencistas</a>
+                    <a href="#sponsors" class="btn btn-tertiary" aria-label="Convertirse en patrocinador">
+    <span class="btn-icon">👑</span> <!-- Opcional: icono -->
+    Hazte patrocinador
+</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-image.jpg" alt="Impact Fest 2025 - Emprendedores conectando">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Transforma tu emprendimiento en Impact Fest 2025</h2>
+                <p>Impact Fest es el punto de encuentro para emprendedores, innovadores y líderes empresariales de Nariño y el sur de Colombia. Durante tres días, crearemos un espacio de conexión, aprendizaje y oportunidades comerciales.</p>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Mayor visibilidad</h3>
+                        <p>Expon tu marca ante miles de visitantes potenciales.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Networking</h3>
+                        <p>Conecta con otros emprendedores y posibles socios.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Aprendizaje</h3>
+                        <p>Talleres y conferencias con expertos nacionales.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3>Oportunidades</h3>
+                        <p>Posibilidad de encontrar inversionistas y distribuidores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="section mission">
+        <div class="container">
+            <div class="mission-content">
+                <h2 class="section-title">Creemos en el poder de los emprendedores de Pasto</h2>
+                <div class="mission-grid">
+                    <div class="mission-card">
+                        <h3>Misión</h3>
+                        <p>Impulsar el talento local mediante espacios de conexión, visibilidad y aprendizaje que permitan el crecimiento sostenible de los emprendimientos de la región.</p>
+                    </div>
+                    <div class="mission-card">
+                        <h3>Visión</h3>
+                        <p>Convertir a Impact Fest en el festival empresarial más influyente del sur colombiano, reconocido por su capacidad de generar oportunidades reales para los emprendedores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section id="speakers" class="section speakers">
+        <div class="container">
+            <h2 class="section-title">Conoce a nuestros conferencistas</h2>
+            <p class="section-subtitle">Expertos que compartirán su conocimiento para hacer crecer tu negocio</p>
+            
+            <div class="speakers-carousel">
+                <div class="carousel-container" id="speakers-container">
+                    <!-- Speakers will be loaded dynamically from Firebase -->
+                    <div class="loading-spinner">
+                        <div class="spinner"></div>
+                        <p>Cargando conferencistas...</p>
+                    </div>
+                </div>
+                <button class="carousel-btn prev-btn" aria-label="Previous speaker">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next-btn" aria-label="Next speaker">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Zones Section -->
+    <section id="zones" class="section zones">
+        <div class="container">
+            <h2 class="section-title">Elige tu zona ideal y conecta con tu público</h2>
+            <p class="section-subtitle">Diseñamos espacios temáticos para maximizar tu impacto</p>
+            
+            <div class="zones-grid">
+                <div class="zone-card pink-zone">
+                    <div class="zone-image">
+                        <img src="images/zones/pink-zone.jpg" alt="Zona Pink">
+                    </div>
+                    <div class="zone-content">
+                        <h3>🔴 Zona Pink</h3>
+                        <p>Ideal para negocios de productos, moda, productos femeninos y de hombre. Ambiente diseñado para destacar productos coloridos y creativos.</p>
+                        <ul class="zone-benefits">
+                            <li><i class="fas fa-check"></i> Alto tráfico de público objetivo</li>
+                            <li><i class="fas fa-check"></i> Iluminación especial para productos</li>
+                            <li><i class="fas fa-check"></i> Zona de pruebas y demostraciones</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="zone-card green-zone">
+                    <div class="zone-image">
+                        <img src="images/zones/green-zone.jpg" alt="Zona Green">
+                    </div>
+                    <div class="zone-content">
+                        <h3>🟢 Zona Green</h3>
+                        <p>Pensada para negocios de servicios, cualquier tipo de servicio que quieras promocionar.</p>
+                        <ul class="zone-benefits">
+                            <li><i class="fas fa-check"></i> Público consciente y dispuesto a pagar por calidad</li>
+                            <li><i class="fas fa-check"></i> Área para charlar</li>
+                            <li><i class="fas fa-check"></i> Zona ideal y con buena iluminacion</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="zone-card black-zone">
+                    <div class="zone-image">
+                        <img src="images/zones/black-zone.jpg" alt="Zona Black">
+                    </div>
+                    <div class="zone-content">
+                        <h3>⚫ Zona Black</h3>
+                        <p>Ideal para negocios de comida, haz que nuestro paladar quede infinitamente agradecido con excelentes platos de comida.</p>
+                        <ul class="zone-benefits">
+                            <li><i class="fas fa-check"></i> Espacio para degustaciones</li>
+                            <li><i class="fas fa-check"></i> Excelente lugar de descanso</li>
+                            <li><i class="fas fa-check"></i> Conexion a energia</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="reserve" class="section cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="section-title">¿Listo para ser parte del cambio?</h2>
+                <p class="cta-text">Reserva ahora tu stand en Impact Fest 2025 y lleva tu emprendimiento al siguiente nivel. Los espacios son limitados.</p>
+                
+                <div class="cta-buttons">
+                    <a href="https://wa.me/573005007854?text=Hola%2C+estoy+interesado+en+separar+mi+stand+en+Impact+Fest+2025.%0A%C2%BFMe+puedes+dar+m%C3%A1s+informaci%C3%B3n%3F" 
+                       class="btn btn-cta whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Reservar por WhatsApp
+                    </a>
+
+                </div>
+                
+                <div class="countdown">
+                    <p>El evento inicia en:</p>
+                    <div class="countdown-timer">
+                        <div class="countdown-item">
+                            <span id="days">22</span>
+                            <span>Días</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="hours">00</span>
+                            <span>Horas</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="minutes">00</span>
+                            <span>Min</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="seconds">00</span>
+                            <span>Seg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="section location">
+    <div class="container">
+        <h2 class="section-title">Ubicación del evento</h2>
+        <p class="location-address">
+            <i class="fas fa-map-marker-alt"></i> Colegio San Felipe Neri, Pasto, Nariño
+        </p>
+        <div class="map-container">
+            <!-- Asegúrate de que la ruta de la imagen sea correcta y que el archivo exista -->
+            <img src="images/felipe-neri.jpg" alt="Colegio San Felipe Neri" class="img-responsive">
+        </div>
+    </div>
+</section>
+
+    <!-- Sponsors Section -->
+    <section id="sponsors" class="section sponsors">
+        <div class="container">
+            <div class="sponsors-content">
+                <h2 class="section-title">Sé parte de nuestros patrocinadores</h2>
+                <p class="sponsors-text">Colabora con nosotros y forma parte de este gran evento que impulsa el emprendimiento en Nariño.</p>
+                
+                <!-- Banner de patrocinadores ajustado -->
+                <div class="sponsors-banner">
+                    <img src="images/banner-patrocionadores.jpg" alt="Nuestros patrocinadores" class="responsive-banner">
+                </div>
+                
+                <div class="sponsors-cta">
+                    <a href="https://drive.google.com/file/d/1thLc7s2bS5LmYRrT2Ct_fA-0dAetjZaE/view?usp=sharing" target="_blank" class="btn btn-primary">
+                        Más información (ver pdf)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Impact Fest 2025 Logo">
+                    <p>El festival empresarial más influyente del sur colombiano.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="#about">Sobre el evento</a></li>
+                        <li><a href="#speakers">Conferencistas</a></li>
+                        <li><a href="#zones">Zonas</a></li>
+                        <li><a href="#location">Ubicación</a></li>
+                        <li><a href="#reserve">Reservar stand</a></li>
+                        <li><a href="#sponsors">hazte patrocinador</a></li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-phone-alt"></i> +57 300 5007854</li>
+                        <li><i class="fas fa-envelope"></i> clickin608@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Colegio San Felipe Neri, Pasto</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/events/738017021983869?locale=es_LA" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/impactfest_pasto/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Impact Fest. Todos los derechos reservados.</p>
+                <div class="legal-links">
+                    <a href="#">Términos y condiciones</a>
+                    <a href="#">Política de privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-firestore-compat.js"></script>
+
+<!-- Tus scripts -->
+    <script src="js/firebase-config.js"></script>
+    <script src="js/speakers.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
