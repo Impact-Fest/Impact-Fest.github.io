@@ -353,22 +353,39 @@ section {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
-.benefit-icon {
-    width: 70px;
-    height: 70px;
-    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color), var(--tertiary--color) );
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 20px;
-    color: var(--light-color);
-    font-size: 1.5rem;
-}
-
 .benefit-card h3 {
     font-size: 1.3rem;
     margin-bottom: 10px;
+}
+
+/* Fallback para íconos */
+.benefit-icon {
+    position: relative;
+}
+
+/* Texto alternativo cuando fallan los íconos */
+.benefit-icon::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+/* Íconos específicos como fallback */
+.benefit-card:nth-child(1) .benefit-icon::after { content: "📈"; }
+.benefit-card:nth-child(2) .benefit-icon::after { content: "🤝"; }
+.benefit-card:nth-child(3) .benefit-icon::after { content: "🎓"; }
+.benefit-card:nth-child(4) .benefit-icon::after { content: "📢"; }
+
+.benefit-icon::after {
+    font-size: 1.5rem;
+    display: block;
 }
 
 /* Mission Section */
